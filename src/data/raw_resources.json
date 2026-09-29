@@ -720,5 +720,11 @@
     "url": "https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive",
     "description": "Open database of real-world AI agent security incidents, one sourced record each, that flags confirmed harm and AI involvement separately from researcher demonstrations; JSON/CSV exports under CC BY 4.0.",
     "category": "Communities"
+  },
+  {
+    "title": "API Relay Audit",
+    "url": "https://github.com/toby-bridges/api-relay-audit",
+    "description": "Local Python security audit for AI API relays and LLM proxies, with probes for hidden instructions, package-command rewriting, error leakage and SSE anomalies, and Markdown reports.",
+    "category": "Tools"
   }
 ]

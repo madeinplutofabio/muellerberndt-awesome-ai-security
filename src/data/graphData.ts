@@ -585,6 +585,13 @@ export const graphData: NodeData[] = [
         "type": "Tool",
         "rating": 8,
         "description": "Rust control layer for local LLM agents with writer and evidence gates, memory and replay governance, and rollback, so agent self-modification stays inspectable and reversible."
+      },
+      {
+        "title": "API Relay Audit",
+        "url": "https://github.com/toby-bridges/api-relay-audit",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Local Python security audit for AI API relays and LLM proxies, with probes for hidden instructions, package-command rewriting, error leakage and SSE anomalies, and Markdown reports."
       }
     ],
     "x": -2.232,
