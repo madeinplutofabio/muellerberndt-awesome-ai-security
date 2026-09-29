@@ -199,6 +199,13 @@ export const graphData: NodeData[] = [
         "description": "Benchmark for LLM jailbreak attacks and defenses."
       },
       {
+        "title": "hermes-jailbench",
+        "url": "https://github.com/hermes-labs-ai/hermes-jailbench",
+        "type": "Article",
+        "rating": 8,
+        "description": "Zero-LLM deterministic jailbreak regression benchmark: repeatable battery of known-pattern attacks, scored refusal/partial/compliance across runs."
+      },
+      {
         "title": "LLM Security Papers (chawins/llm-sp)",
         "url": "https://github.com/chawins/llm-sp",
         "type": "Paper",
@@ -239,13 +246,6 @@ export const graphData: NodeData[] = [
         "type": "Article",
         "rating": 8,
         "description": "Browser-based labs on prompt injection, jailbreaking and LLM attack scenarios, mapped to the OWASP Top 10 for LLM and agentic AI. Commercial training."
-      },
-      {
-        "title": "Skill-audit",
-        "url": "https://github.com/AgentPostmortem/Skill-audit",
-        "type": "Tool",
-        "rating": 8,
-        "description": "Scanner for agent skills that flags prompt injection, dangerous shell use and secret access before installation. 31 rules, SARIF output, zero dependencies."
       }
     ],
     "x": -1.8,
@@ -550,6 +550,13 @@ export const graphData: NodeData[] = [
         "type": "Tool",
         "rating": 8,
         "description": "Harness for governing AI coding agents: commit-time audit rules over git diffs, an HMAC-signed audit trail and snapshot rollback, exposed as an MCP toolset."
+      },
+      {
+        "title": "Skill-audit",
+        "url": "https://github.com/AgentPostmortem/Skill-audit",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Scanner for agent skills that flags prompt injection, dangerous shell use and secret access before installation. 31 rules, SARIF output, zero dependencies."
       },
       {
         "title": "Bifrost",

@@ -58,13 +58,13 @@ Understand prompt injection attacks that manipulate LLM behavior through crafted
 - [Red Teaming Language Models to Reduce Harms](https://arxiv.org/abs/2209.07858) - Systematic red teaming findings and public dataset. Anthropic, arXiv:2209.07858, 2022.
 - [OWASP Top 10 for LLM Applications 2025](https://owasp.org/www-project-top-10-for-large-language-model-applications/) - Critical risks including prompt injection, sensitive info disclosure, supply chain, and data poisoning.
 - [JailbreakBench](https://jailbreakbench.github.io/) - Benchmark for LLM jailbreak attacks and defenses.
+- [hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench) - Zero-LLM deterministic jailbreak regression benchmark: repeatable battery of known-pattern attacks, scored refusal/partial/compliance across runs.
 - [LLM Security Papers (chawins/llm-sp)](https://github.com/chawins/llm-sp) - Papers and resources on LLM security and privacy including indirect prompt injection research.
 - [Armorer Guard](https://github.com/ArmorerLabs/Armorer-Guard) - SDKs and integration contracts for a guard that screens AI-agent tool calls for prompt injection, credential leakage and exfiltration before execution.
 - [hego.red](https://hego.red/) - Hands-on notes on LLM red teaming: prompt injection, jailbreaks, indirect injection, RAG and agent testing, with a scoping methodology and worked labs.
 - [Koma](https://github.com/swnotmetal/Project-Koma) - Zero-dependency Node.js and TypeScript library that filters prompt injection, audio hallucinations and RAG scraping at the application boundary.
 - [Sentinel Scan CLI](https://github.com/Ventrova/sentinel-scan-cli) - CLI and MCP server that scans MCP manifests for tool poisoning and rug-pulls, and runs a prompt injection and jailbreak suite against your own LLM endpoint.
 - [RansomLeak AI Security Training](https://ransomleak.com/catalogue/ai-security/) - Browser-based labs on prompt injection, jailbreaking and LLM attack scenarios, mapped to the OWASP Top 10 for LLM and agentic AI. Commercial training.
-- [Skill-audit](https://github.com/AgentPostmortem/Skill-audit) - Scanner for agent skills that flags prompt injection, dangerous shell use and secret access before installation. 31 rules, SARIF output, zero dependencies.
 
 ### Adversarial Attacks
 Learn how adversarial examples fool neural networks and methods to defend against them.
@@ -117,6 +117,7 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [SourceryKit](https://github.com/ProvablyAI/sourcerykit) - Python SDK that checks an agent's tool calls and MCP handoffs against a trusted-endpoint allowlist and records the provenance of each answer.
 - [AI Security Registry](https://forefy.com/asr) - Registry of skills, goals and workflows for AI agents, with git-pinned versions reviewed before each update.
 - [sofagent](https://github.com/KongFangXun/sofagent) - Harness for governing AI coding agents: commit-time audit rules over git diffs, an HMAC-signed audit trail and snapshot rollback, exposed as an MCP toolset.
+- [Skill-audit](https://github.com/AgentPostmortem/Skill-audit) - Scanner for agent skills that flags prompt injection, dangerous shell use and secret access before installation. 31 rules, SARIF output, zero dependencies.
 - [Bifrost](https://github.com/maximhq/bifrost) - AI gateway unifying access to model providers and MCP servers, with guardrails, approvals, audit logs and access control at the edge.
 - [KeyDrift](https://keydrift.dev) - Scans deployed HTML and JavaScript for secrets that AI-generated code inlines into the client bundle, separating public browser credentials from real leaks.
 - [AgentShield](https://github.com/elliotllliu/agent-shield) - Scanner for MCP servers, agent skills and plugins that runs thirteen engines over a package and returns one report. Runs offline via npx with no install.

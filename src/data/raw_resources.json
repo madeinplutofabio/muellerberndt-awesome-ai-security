@@ -506,6 +506,12 @@
     "category": "Benchmarks"
   },
   {
+    "title": "hermes-jailbench",
+    "url": "https://github.com/hermes-labs-ai/hermes-jailbench",
+    "description": "Zero-LLM deterministic jailbreak regression benchmark: repeatable battery of known-pattern attacks, scored refusal/partial/compliance across runs.",
+    "category": "Benchmarks"
+  },
+  {
     "title": "Stanford AIR-Bench 2024",
     "url": "https://crfm.stanford.edu/helm/air-bench/latest/",
     "description": "AI safety benchmark aligned with emerging government regulations and company policies.",
