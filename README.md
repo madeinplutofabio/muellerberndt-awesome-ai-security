@@ -1,30 +1,21 @@
 # Awesome AI Security
 
-[![Interactive version](https://img.shields.io/badge/Interactive%20version-floatingpragma.io-a855f7?style=for-the-badge)](https://floatingpragma.io/awesome-ai-security/)
-[![Awesome ZK Proofs](https://img.shields.io/badge/Also%20see-Awesome%20ZK%20Proofs-38d4f5?style=for-the-badge)](https://floatingpragma.io/awesome-zk-proofs/)
-
-> **[Browse the interactive version](https://floatingpragma.io/awesome-ai-security/)** — the same list as a
-> learning path with two tracks, a filter, and a link for every topic.
+[![Awesome ZK Proofs](https://img.shields.io/badge/Also%20see-Awesome%20ZK%20Proofs-38d4f5?style=for-the-badge)](https://github.com/muellerberndt/awesome-zk-proofs)
 
 A curated, annotated list of resources for AI security: prompt injection, adversarial machine
 learning, model privacy, AI red teaming, and using AI for offensive and defensive security work.
 
 ## Contributing
 
-**This README is generated. Edits to it are overwritten on the next build.**
+Pull requests are welcome. Add your entry to this README, in the section it belongs to, in the
+same format as the entries around it:
 
-Add your resource to [`src/data/raw_resources.json`](src/data/raw_resources.json) with a `title`,
-`url`, one-sentence `description` and a `category`, then run:
-
-```bash
-node scripts/map_data.cjs && node scripts/layout_pyramid.cjs && npm run awesome
+```markdown
+- [Name](https://example.com) - One sentence on what it is or does.
 ```
 
-Commit the regenerated `README.md`, `nodes.json` and `graphData.ts` along with your change. A pull
-request that touches only `README.md` cannot reach the website, which is built from the same source
-data. See [CONTRIBUTION.md](CONTRIBUTION.md).
-
-<!-- AWESOME_LIST:START -->
+The link should be public and working, and the description should say what the resource does
+rather than how good it is.
 
 ### ML Foundations
 Essential machine learning concepts and courses to build a foundation before diving into AI security.
@@ -206,7 +197,6 @@ Newsletters and awesome lists to stay current with AI security developments.
 - [ElNiak/awesome-ai-cybersecurity](https://github.com/ElNiak/awesome-ai-cybersecurity) - AI in cybersecurity awesome list.
 - [corca-ai/awesome-llm-security](https://github.com/corca-ai/awesome-llm-security) - LLM-specific security awesome list.
 
-<!-- AWESOME_LIST:END -->
 
 ---
 
