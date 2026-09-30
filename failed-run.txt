@@ -1,0 +1,27 @@
+https://github.com/sherlock-protocol/sherlock-ai/actions/runs/20518221218/job/58949289666
+
+
+https://eu.smith.langchain.com/o/05fe7079-d22f-48e7-8cb3-eb22c6192b16/datasets/9076cf83-837b-4ec4-9a9d-02ac447a4bb1/compare?selectedSessions=f952e60d-9fb9-4038-bebc-4f76a6df8666&baseline=undefined&trace=d71d2db4-b722-4525-9cc0-4ca285c854b7&peeked_trace_id=3c8ff8dd-b9dd-43d6-b7c1-65c24b913122
+
+
+
+T trial starts out lower - but then potential energy rises slowet and never goe that high
+
+First of all we have to notice that if we have potential energy > kinetic energy then a HIGHER difference is better.
+
+In other words, we want to MINIMIZE where kinetic energy > potential energy and MAXIMIZE where potential energy > kinetic energy
+
+
+
+
+More momentum: High Lagrangian at the start action grows fast in the beginning. Even though the potential energy reaches a higher peak, it is not enough to offset the growth at the start so the total action is higher ()
+
+Less momentumn: Low Lagrangian (difference between kinetic and potential via gravity starts out low). 
+
+
+So kinetic energy grows quadratically with dy
+
+Potential energy grows linearly with the height
+
+
+
