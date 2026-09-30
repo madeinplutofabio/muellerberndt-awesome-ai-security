@@ -49,6 +49,7 @@ Understand prompt injection attacks that manipulate LLM behavior through crafted
 - [Red Teaming Language Models to Reduce Harms](https://arxiv.org/abs/2209.07858) - Systematic red teaming findings and public dataset. Anthropic, arXiv:2209.07858, 2022.
 - [OWASP Top 10 for LLM Applications 2025](https://owasp.org/www-project-top-10-for-large-language-model-applications/) - Critical risks including prompt injection, sensitive info disclosure, supply chain, and data poisoning.
 - [JailbreakBench](https://jailbreakbench.github.io/) - Benchmark for LLM jailbreak attacks and defenses.
+- [hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench) - Zero-LLM deterministic jailbreak regression benchmark: repeatable battery of known-pattern attacks, scored refusal/partial/compliance across runs.
 - [LLM Security Papers (chawins/llm-sp)](https://github.com/chawins/llm-sp) - Papers and resources on LLM security and privacy including indirect prompt injection research.
 - [Armorer Guard](https://github.com/ArmorerLabs/Armorer-Guard) - SDKs and integration contracts for a guard that screens AI-agent tool calls for prompt injection, credential leakage and exfiltration before execution.
 - [hego.red](https://hego.red/) - Hands-on notes on LLM red teaming: prompt injection, jailbreaks, indirect injection, RAG and agent testing, with a scoping methodology and worked labs.
