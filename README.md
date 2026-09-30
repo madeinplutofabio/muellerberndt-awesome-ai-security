@@ -125,6 +125,7 @@ Using AI assistants and agents for automated penetration testing and security as
 - [Top AI Pentesting Tools in 2025: PentestGPT vs. Penligent vs. PentestAI](https://www.penligent.ai/hackinglabs/top-ai-pentesting-tools-in-2025-pentestgpt-vs-penligent-vs-pentestai-reviewed/) - Comparison of features and automation.
 - [PentestGPT: An LLM-empowered Automatic Penetration Testing Tool](https://arxiv.org/abs/2308.06782) - Design and evaluation of autonomous pentesting. arXiv:2308.06782, 2024.
 - [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open-source autonomous pentest platform with specialist agents for web, API, Active Directory, Kubernetes, IoT and LLM/MCP endpoints. Runs against a local model and proves each finding with a reproduction.
+- [Barrion](https://barrion.io/ai-pentesting) - Commercial AI pentesting for web apps and APIs, run on demand or on a schedule. Includes a free passive website scan.
 
 ### Vulnerability Detection
 AI-powered vulnerability scanning, code analysis, and bug detection.
